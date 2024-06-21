@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/contato.css">
     <title>Contato</title>
-    <link rel="stylesheet" href="styles/contato.css">
+
 </head>
 <body>
     
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cardapio.html">Cardápio</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="formulario-container">
+                <form class="formulario">
+                    <fieldset class="area-formulario">
+                        <legend class="formulario-titulo">Envie sua mensagem</legend>
+            
+                        <!-- Nome -->
+                        <div class="campos-formulario">
+                            <label for="campoNome">Nome:</label>
+                            <input type="text" id="campoNome" name="nome" placeholder="Insira seu nome aqui" required />
+                        </div>
+            
+                        <!-- E-mail -->
+                        <div class="campos-formulario">
+                            <label for="campoEmail">E-mail:</label>
+                            <input type="email" id="campoEmail" name="email" placeholder="Insira seu e-mail aqui" required />
+                        </div>
+            
+                        <!-- Comentários -->
+                        <div class="campos-formulario">
+                            <label for="comentarios">Dúvidas, sugestões, críticas e reclamações:</label>
+                            <textarea id="comentarios" name="comentarios" placeholder="Escreva aqui suas sugestões, críticas ou reclamações"></textarea>
+                        </div>
+            
+                        <!-- Botão enviar -->
+                        <div class="campos-formulario">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            
+        </main>
+
+
+
+        <footer class="footer">
+            <div class="coluna-footer">
+                <h3>Dia e Horário de Funcionamento</h3>
+                <p>Terça a Quinta: 17h às 22h<br>
+                   Sexta: 17h às 23h
+                    Sábado e Domingo: 17 às 00h<br>
+                   Segunda: Fechado</p>
+            </div>
+            <div class="coluna-footer">
+                <h3>Entre em Contato</h3>
+                <p>
+                   Email: contato@bahamamamma.com</p>
+            </div>
+        </footer>
+
 </body>
 </html>

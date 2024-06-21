@@ -1,80 +1,139 @@
 *{
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
 }
 
 html{
-  font-family: "montserrat";
+    font-family: "montserrat";
 }
 body{
-  background-color: #fcfcfc;
+    background-color: #fcfcfc;
 }
 
 
 .cabecalho {
-  background-color: #049b93;
-  color: #fff; 
-  padding: 20px 0; 
-  display: flex;
-  justify-content: space-between; 
+    background-color: #049b93;
+    color: #fff; 
+    padding: 20px 0; 
+    display: flex;
+    justify-content: space-between; 
 }
 
 .menu {
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
-  display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
 }
 
 .menu li {
-  margin-left: 20px; 
-  
+    margin-left: 20px; 
+    
 }
 
 
 .menu li a {
-  color: #fff; 
-  text-decoration: none; 
-  font-size: 1.2rem; 
-  transition: color 0.3s ease; 
-  
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
+    
 }
 
 .menu li a:hover {
-  color: #d83d20; 
+    color: #d83d20; 
 }
 
 
 .menu .reservar {
-  background-color: #ffffff; 
-  color: #049b93; 
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  transition: background-color 0.3s, color 0.3s;
+    background-color: #ffffff; 
+    color: #049b93; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around; /* Distribui as colunas com espaço uniforme */
-  background-color: #049b93;
-  padding: 50px;
-  text-align: center;
+    display: flex;
+    justify-content: space-around; /* Distribui as colunas com espaço uniforme */
+    background-color: #049b93;
+    padding: 50px;
+    text-align: center;
 }
 
 .coluna-footer {
-  flex: 2; /* Cada coluna ocupa a mesma proporção do espaço disponível!!!! */
-  padding: 0 10px;
+    flex: 2; /* Cada coluna ocupa a mesma proporção do espaço disponível!!!! */
+    padding: 0 10px;
 }
 
 .footer h3 {
-  color: #fcfcfc;
-  font-size: 18px;
-  margin-bottom: 10px;
+    color: #fcfcfc;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .footer p {
-  font-size: 16px;
-  color: #fcfcfc;
+    font-size: 16px;
+    color: #fcfcfc;
+}
+
+
+
+/*Formulário começa aqui:*/
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario {
+    background: #fcfcfc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    width: 100%;
+    max-width: 500px;
+}
+
+.area-formulario {
+    border: none;
+    padding: 0;
+}
+
+.formulario-titulo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campos-formulario {
+    margin-bottom: 15px;
+}
+
+.campos-formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campos-formulario input,
+.campos-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+    border-radius: 3px;
+}
+
+.campos-formulario button {
+    width: 100%;
+    padding: 10px;
+    background: #d83d20;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
 }
