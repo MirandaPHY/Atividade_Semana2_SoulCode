@@ -78,3 +78,62 @@ body{
     font-size: 16px;
     color: #fcfcfc;
 }
+
+
+
+/*Formulário começa aqui:*/
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario {
+    background: #fcfcfc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    width: 100%;
+    max-width: 500px;
+}
+
+.area-formulario {
+    border: none;
+    padding: 0;
+}
+
+.formulario-titulo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campos-formulario {
+    margin-bottom: 15px;
+}
+
+.campos-formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campos-formulario input,
+.campos-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+    border-radius: 3px;
+}
+
+.campos-formulario button {
+    width: 100%;
+    padding: 10px;
+    background: #d83d20;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
