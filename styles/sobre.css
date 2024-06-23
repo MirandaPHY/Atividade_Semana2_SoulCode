@@ -5,43 +5,55 @@
     box-sizing: border-box; 
 }
 .titulo-secao-menu{
-    text-align: center;
+    justify-content: center;
     color: #ffffff;
     background-color: #049b93;
     padding: 10px;
     width: 250px;
     height: 50px;
     align-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
-    
+}
+
+.menu{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 18px;
 }
 
 h1 {
     text-align: center;
-    color: #d83d20;
+    color: #0c0c0c;
     background-color: #049b93;
-    padding: 10px;
-    
+    padding: 10px; 
     height: 50px;
     align-items:center;
  
+}
+
+img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+
 }
 h2 {
     text-align: center;
     color: #ffffff;
     background-color: #049b93;
     padding: 10px;
-  
     height: 50px;
     align-items:center;
  
 }
+
+
 h3 {
     text-align: center;
     color: #ffffff;
     background-color: #049b93;
     padding: 30px;
- 
     height: 50px;
     align-items:center;
  
@@ -97,10 +109,12 @@ main {
 }
 
 .image {
-    background-color: #ccc;
-    padding: 2rem;
+    background-color: #049b93;;
+    color: white;
+    padding: 1rem;
     flex: 1;
     text-align: center;
+    font-size: 24px;
 }
 
 
@@ -127,3 +141,45 @@ main {
     font-size: 16px;
     color: #fcfcfc;
 }
+
+p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.pessoal img{
+    width: 230px;
+    height: 300px;
+    display: flex;
+    border-radius: 16px;
+    margin: auto 25px;
+}
+
+.pessoal p{
+    font-size: 18px;
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+.equipe-construcao{
+    text-align: center;
+}
+}
+
+-----------------------------------------------------------
+
+/* Responsividade */
+
+@media (width < 440px) {
+    .pessoal p{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: column;
+    }
+}
+
+
