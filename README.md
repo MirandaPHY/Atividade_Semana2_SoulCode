@@ -4,10 +4,10 @@
 <h1>Desenvolvedor do Projeto</h1>
 
 
-<p>Nome: Ingrid</p>
+<p>Nome: Ingrid Munhoz</p>
 <img src="styles/img/ingrid01.jpg" alt="Ingrid" style="width: 300px;">
 
-<p>Nome: Paulo</p>
+<p>Nome: Paulo Henderson Miranda da Silva</p>
 <img src="styles/img/Paulo.jpg" alt="Paulo" style="width: 300px;">
 
 <p>Nome: Micheline Santos </p>
