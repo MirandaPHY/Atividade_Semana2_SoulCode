@@ -5,10 +5,10 @@
 
 
 <p>Nome: Ingrid</p>
-<img src="styles/img/ingrid01.jpg" alt="Ingrid"  width: 100px;>
+<img src="styles/img/ingrid01.jpg" alt="Ingrid" style="width: 300px;">
 
 <p>Nome: Paulo</p>
-<img src="styles/img/Paulo.jpg" alt="Paulo" width: 100px;>
+<img src="styles/img/Paulo.jpg" alt="Paulo" style="width: 300px;">
 
 <p>Nome: Micheline Santos </p>
-<img src="styles/img/Micheline.png" alt="Micheline" width: 250px;>
+<img src="styles/img/Micheline.png" alt="Micheline" style="width: 300px;">
