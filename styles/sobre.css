@@ -4,9 +4,14 @@
     border: 0;
     box-sizing: border-box; 
 }
+
+html{
+    font-family: "montserrat";
+}
+
 .titulo-secao-menu{
     justify-content: center;
-    color: #ffffff;
+    color: #fcfcfc;
     background-color: #049b93;
     padding: 10px;
     width: 250px;
@@ -14,18 +19,11 @@
     align-items: center;
 }
 
-.menu{
-    text-align: center;
-    justify-content: space-between;
-    font-size: 25px;
-    margin: 18px;
-}
 
 h1 {
     text-align: center;
     color: #0c0c0c;
     background-color: #049b93;
-    padding: 10px; 
     height: 50px;
     align-items:center;
  
@@ -40,7 +38,7 @@ img{
 }
 h2 {
     text-align: center;
-    color: #ffffff;
+    color: #fcfcfc;
     background-color: #049b93;
     padding: 10px;
     height: 50px;
@@ -48,16 +46,17 @@ h2 {
  
 }
 
-
-h3 {
+h3{
     text-align: center;
-    color: #ffffff;
+    color: #fcfcfc;
     background-color: #049b93;
-    padding: 30px;
+    padding: 10px;
     height: 50px;
     align-items:center;
- 
+
+
 }
+
 
 
 body {
@@ -80,20 +79,6 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
 
 main {
     padding: 1rem;
@@ -110,7 +95,7 @@ main {
 
 .image {
     background-color: #049b93;;
-    color: white;
+    color: #fcfcfc;
     padding: 1rem;
     flex: 1;
     text-align: center;
@@ -145,6 +130,7 @@ main {
 p{
     margin-top: 12px;
     margin-bottom: 12px;
+    font-size: 1.25rem;
 }
 
 .pessoal img{
@@ -164,12 +150,26 @@ p{
     
 }
 
-.equipe-construcao{
-    text-align: center;
-}
+.figure {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 300px; /* Altura do container */
+    width: 100%; /* Largura do container ocupando toda a largura disponível */
+    padding: 10px;
+    margin-bottom: 20px; /* Espaço entre cada seção */
 }
 
------------------------------------------------------------
+.figure img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+
+
+}
+
 
 /* Responsividade */
 
@@ -183,3 +183,36 @@ p{
 }
 
 
+/* MENU de NAVEGAÇÃO */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #049b93;
+    font-size: 20px;
+    padding: 16px;    
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha os itens do menu à direita */
+    margin-top: 15px; /* Aumenta a distância entre o topo e o menu */
+  }
+  
+  header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fcfcfc;
+    margin-bottom: 15px; /* Espaçamento vertical entre os links */
+    margin-right: 20px; /* Espaçamento horizontal entre os links */
+  }
+  
+  header nav a:hover {
+    color: #d83d20; /* Cor ao passar o mouse */
+  }
+  .titulo-nav{
+      color: #fcfcfc
+    }
+    

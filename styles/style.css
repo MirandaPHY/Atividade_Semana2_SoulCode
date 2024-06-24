@@ -7,13 +7,44 @@
     box-sizing: border-box; 
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #049b93;
-    font-size: 20px;
-    padding: 16px;    
+html{
+  font-family: "montserrat";
 }
+
+
+/* MENU de NAVEGAÇÃO */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente os itens */
+  background-color: #049b93;
+  font-size: 20px;
+  padding: 16px;    
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinha os itens do menu à direita */
+  margin-top: 15px; /* Aumenta a distância entre o topo e o menu */
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fcfcfc;
+  margin-bottom: 15px; /* Espaçamento vertical entre os links */
+  margin-right: 20px; /* Espaçamento horizontal entre os links */
+}
+
+header nav a:hover {
+  color: #d83d20; /* Cor ao passar o mouse */
+}
+.titulo-nav{
+    color: #fcfcfc
+  }
+
 
 h2{
   font-size: 35px;
@@ -21,10 +52,6 @@ h2{
   margin-top: 18px;
 }
 
-a{
-    text-decoration: none;
-    font-size: 25px;
-}
 
 .box p{
     display: flex;
@@ -68,7 +95,9 @@ a{
   background-size: cover;
 }
 .btn:hover {
-    background-color: #0d037d;
+    background-color: #d83d20;
+    cursor: pointer;
+    
 }
 
 section{
@@ -84,20 +113,35 @@ img{
   margin-top: 18px;
 }
 
-footer{
-  background-color: #049b93;
-  padding: 16px;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 20px;
+.footer {
+    display: flex;
+    justify-content: space-around; /* Distribui as colunas com espaço uniforme */
+    background-color: #049b93;
+    padding: 50px;
+    text-align: center;
 }
 
------------------------------------------------------------------
+.coluna-footer {
+    flex: 2; /* Cada coluna ocupa a mesma proporção do espaço disponível!!!! */
+    padding: 0 10px;
+}
+
+.footer h3 {
+    color: #fcfcfc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #fcfcfc;
+}
+
 
 /* Responsividade */
 
 
-@media and (min-width: 375px) and (max-width: 667px)
+@media and (min-width: 375px) and (max-width: 667px){
 {
   header {
     display: flex;
@@ -105,7 +149,9 @@ footer{
     background-color: #049b93;
     font-size: 6px;
     padding: 8px;    
+  }
 }
+
 
 .box p {
     font-size: 8px;
@@ -154,7 +200,7 @@ a{
 
 
 .btn:hover {
-    background-color: #0d037d;
+    background-color: #d83d20;
 }
 
 section{
@@ -167,5 +213,4 @@ section{
 img{
  
   margin-top: 18px;
-}
 }

@@ -13,48 +13,6 @@ body{
 }
 
 
-.cabecalho {
-    background-color: #049b93;
-    color: #fff; 
-    padding: 20px 0; 
-    display: flex;
-    justify-content: space-between; 
-}
-
-.menu {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex;
-}
-
-.menu li {
-    margin-left: 20px; 
-    
-}
-
-
-.menu li a {
-    color: #fff; 
-    text-decoration: none; 
-    font-size: 1.2rem; 
-    transition: color 0.3s ease; 
-    
-}
-
-.menu li a:hover {
-    color: #d83d20; 
-}
-
-
-.menu .reservar {
-    background-color: #ffffff; 
-    color: #049b93; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s, color 0.3s;
-}
-
 .footer {
     display: flex;
     justify-content: space-around; /* Distribui as colunas com espaço uniforme */
@@ -88,6 +46,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-size: 1.5rem;
 }
 
 .formulario {
@@ -137,3 +96,36 @@ body{
     font-size: 1em;
     cursor: pointer;
 }
+
+/* MENU de NAVEGAÇÃO */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #049b93;
+    font-size: 20px;
+    padding: 16px;    
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha os itens do menu à direita */
+    margin-top: 15px; /* Aumenta a distância entre o topo e o menu */
+  }
+  
+  header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fcfcfc;
+    margin-bottom: 15px; /* Espaçamento vertical entre os links */
+    margin-right: 20px; /* Espaçamento horizontal entre os links */
+  }
+  
+  header nav a:hover {
+    color: #d83d20; /* Cor ao passar o mouse */
+  }
+  .titulo-nav{
+      color: #fcfcfc
+    }
